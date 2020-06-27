@@ -11,7 +11,6 @@ SOUND ANNOTATE uses BAT/BMAT, an open-source, web-based tool for the manual anno
 3. It offers the possibility to cross-annotate audio data. 
 4. It is easy to install and deploy on servers.
 
-![alt text](https://github.com/BlaiMelendezCatalan/BAT/blob/master/other/gif.gif "Annotation process")
 
 Install and run Demo locally or on a server:
 --------------
