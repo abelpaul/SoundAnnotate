@@ -1,19 +1,18 @@
-BAT - BMAT Annotation Tool
+SOUND ANNNOTATE - BMAT Annotation Tool
 ==========
 
 Description:
 --------------
 
-BAT is an open-source, web-based tool for the manual annotation of events in audio recordings developed at [BMAT](http://www.bmat.com). It was developed in the context of a PhD and right now it is maintained by its author in his free. By no means is it a professional tool.
+SOUND ANNOTATE uses BAT/BMAT, an open-source, web-based tool for the manual annotation of events in audio recordings developed at [BMAT](http://www.bmat.com).
 
 1. It provides an easy way to annotate the salience of simultaneous sound sources.
 2. It allows to define multiple ontologies to adapt to multiple tasks.
 3. It offers the possibility to cross-annotate audio data. 
 4. It is easy to install and deploy on servers.
 
-![alt text](https://github.com/BlaiMelendezCatalan/BAT/blob/master/other/gif.gif "Annotation process")
 
-Install and run BAT locally or on a server:
+Install and run Demo locally or on a server:
 --------------
 
 1. Install docker and docker-compose. For the details on docker installation you can use [the official documentation guide](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
@@ -64,7 +63,7 @@ Install and run BAT locally or on a server:
 
 `$ (sudo) docker exec -i <container ID> psql -U bat_admin -p 5432`
 
-First steps with BAT:
+First steps with Demo:
 --------------
 
 1. As the admin you can create projects, define classes and upload wavs to projects. First of all create the set of classes that you want to annotate with. Todo so go to "Classes" and click on "Add Class".
@@ -92,3 +91,5 @@ Third party software:
 --------------
 
 1. From the CrowdCurio project (https://github.com/CrowdCurio/audio-annotator): extended versions of wavesurfer.js and regions.js plugins.
+
+5. Annotation is finished! Click on either "finish annotation" or "finish annotation and load next"
